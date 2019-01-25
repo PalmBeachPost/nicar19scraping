@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*
+FILE: CSS with media queries specific to small keystone pages. 
+BY: Frank Henderson, TDCJ Web Services
+DATE: July 24, 2017
+UPDATED: 09/01/17
+*/
+
+/*
+=====================================================
+BODY & CONTENT
+=====================================================
+*/
+
+.grid	{
+	width: 90%;
+	padding: 15px;	
+}
+
+.grid_sub	{
+	float: left;
+	margin-right: 10px;	
+}
+
+
+#landing_page_image {	
+	display: none;			/* appears at 1024px */
+}
+
+/*
+=====================================================
+PROGRESSIVELY ENHANCED STYLES
+=====================================================
+*/
+
+@media screen and (min-width: 1024px) {
+	
+.grid	{
+	width: 45%;
+}	
+
+#landing_page_image {
+	display: block;
+	margin-bottom: 15px;	/* spacing for h1 tag */
+}
+
+#content_right {	/* aligns image with menu  */
+	padding-top: 0px;
+}
+
+}

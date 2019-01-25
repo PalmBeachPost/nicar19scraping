@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div_container_top_line_blue {
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    border-top: thin solid #2e5f97;
+}
+
+.h2_escape_rule {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FF0000;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 13px;
+    padding-top: 13px;
+}
+
+@media screen and (min-width: 968px)  {
+
+/* left & right partitions  */

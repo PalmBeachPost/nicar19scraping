@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*This CSS is used primarily for the Connections Newsletter.*/
+
+figure {
+  display:table;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+/*    max-width:100%;
+    height: auto;   */
+}
+
+figcaption {
+  display:table-caption;
+  caption-side:bottom;
+}
+
+.figure-left {
+    float: left;
+}
+
+.figure-right {
+    float: right;
+}

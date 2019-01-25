@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.rotate-text-neg90degrees {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}

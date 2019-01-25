@@ -1,0 +1,36 @@
+/*
+FILE: Styles for all HTML web forms.
+NOTE: Wrap all form fields in a <div> for consistent spacing (instead of <p> or <br> tags). See line 12.
+BY: Frank Henderson, TDCJ Web Services
+DATE: 07/03/17
+MODIFIED: 10/12/17
+*/
+
+.text-check-div	{display: none; }  /* spambot check - DO NOT REMOVE */
+.div_container_border	{margin-top: 8px;}  /* class from: content.css; use as outer container  */
+.div_container	{width: 95%; padding: 8px;}  /* class from: content.css; use as inner container */
+.web-form div { padding-bottom:0.8em;}	/* creates spacing for all form fields */
+.web-form input, select, textarea { border: 1px solid #777; margin-top: 2px; }
+.web-form label { font-weight:bold; }
+.web-form label.nobold	{ font-weight: normal; }
+.web-form fieldset { border: 1px dotted #777; margin:0px; padding:7px; } 
+.web-form fieldset.noborder { border: 0px; padding: 0px; } 
+.web-form fieldset legend { background-color: #FFF; font-weight:bold; margin-left:0px; padding-left:5px; padding-right:5px;}
+.web-form fieldset label  {font-weight:normal; }
+.hide	{display: none; } /* hides labels */
+.under-label { font-style: italic; font-size: 10px; } /* small font for supplemental field info */
+.button { background-color: #2E5F97; border: 1px solid #000; color: #FFFFFF; padding: 3px; } /* form buttons */
+
+/* page messages (if needed) */
+.msg { background-color:#CCFFCC; padding:5px; margin-top:8px; }
+.msg-err { background-color:#FDD; padding:5px; margin-top:8px; }
+
+/*
+=====================================================
+PROGRESSIVELY ENHANCED STYLES
+=====================================================
+*/
+
+@media screen and (min-width: 768px) {
+	.div_container	{width: 97%;}  /* class from: content.css */
+}

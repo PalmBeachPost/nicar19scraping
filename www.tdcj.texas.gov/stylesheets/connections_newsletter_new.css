@@ -1,0 +1,228 @@
+/* CSS Document */
+
+/* FIRST PAGE CSS ONLY */
+
+.continuation-link a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    line-height: normal;
+}
+.continuation-link a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    line-height: normal;
+}
+.continuation-link a:focus {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    background-color: #FFF9A5;
+    line-height: normal;
+}
+.continuation-link a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    background-color: #FFF9A5;
+    line-height: normal;
+}
+.continuation-link a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #002859;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.continuation-link-new a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    line-height: 24px;
+}
+.continuation-link-new a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    line-height: 24px;
+}
+.continuation-link-new a:focus {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    background-color: #FFF9A5;
+    line-height: 24px;
+}
+.continuation-link-new a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #002859;
+	text-decoration: none;
+    background-color: #FFF9A5;
+    line-height: 24px;
+}
+.continuation-link-new a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #002859;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.div_teaser {
+	height: auto;
+	width: 100%;
+    border-top: thin solid #92B1CD;
+    overflow: auto;
+}
+
+.div_teaser_blue {
+	height: auto;
+	width: 100%;
+    border-top: thin solid #92B1CD;
+    background-color: #D8E1EB;
+    overflow: auto;
+}
+
+
+.div_blue_top_border {
+	height: auto;
+	width: 100%;
+    border-top: thin solid #92B1CD;
+    overflow: auto;
+}
+
+.div_container_blue {
+	height: auto;
+	width: 99%;
+    overflow: auto;
+    background-color: #002859;
+    padding-left: 11px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+p.in_this_issue {
+    font-size: 22px;
+    line-height: normal;
+    font-style: italic;
+    font-weight: bold;
+	/*color: #002859;*/
+    color: #002859;
+}
+
+.white {
+    font-size: 14px;
+    font-weight: bold;
+	color: #002859;
+    line-height: 18px;
+}
+
+.blue {
+	color: #002859;
+}
+
+.wrapper_graphic_right {
+    height: inherit;
+    margin-right: 1px;
+    width: 35%;
+    float: right;
+}
+
+.wrapper_graphic_left {
+    height: inherit;
+    margin-right: 1px;
+    width: 35%;
+    float: left;
+}
+
+p.connections_headline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+    line-height: normal;
+	color: #002859;
+	text-decoration: none;
+}
+
+ul.star_left  {
+	list-style-image: url(/images/star_bullet.gif);	
+	font-size: 12px;
+    font-style: italic;
+    margin-left: -13px;
+    line-height: inherit;
+}
+
+ul li  {
+    padding-bottom: 7px;
+}
+
+.div_image_wrapper_left  {
+    float: left;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 7px;
+}
+.div_image_wrapper_right  {
+    float: right;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 7px;
+}
+.div_image_wrapper_middle  {    /* Does NOT require the .image class */
+    float: inherit; 
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 7px;
+}
+.div_image {}
+.div_image_caption {}
+
+.image {	/* images flex based on screen size for IE browsers within divs*/
+    max-width: 100%;
+    height: auto;
+}
+
+.div_45_left {
+    height: inherit;
+    width: 44%;
+    float: left;
+}
+    
+.div_55_right {
+    height: inherit;
+    width: 54%;
+    float: right;
+}
+

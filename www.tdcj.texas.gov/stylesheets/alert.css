@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="/stylesheets/content.css"><link rel="stylesheet" href="/stylesheets/content.css"><link rel="stylesheet" href="/stylesheets/content.css"><link rel="stylesheet" href="/stylesheets/content.css"><link rel="stylesheet" href="/stylesheets/content.css"><link rel="stylesheet" href="/stylesheets/content.css">@charset "utf-8";
+/*
+FILE: CSS specific to "Alert.html" ONLY. NOT to be used on any other page.
+ALERTS: 
+NOTE  : 
+BY: Wendy Skains-McLeod, TDCJ Web Services
+DATE: March 09, 2017
+UPDATED: July 12, 2017, Wendy Skains-McLeod
+*/
+
+.h1_alert {
+    font-size: 24px;
+    line-height: 25px;
+    margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+}
+
+.h2_escape {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #FF0000;
+    font-family: Arial, Helvetica, sans serif;
+    font-size: 18px;
+    color: #000000;
+    border-left: 5px solid #FF0000;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 36px;
+    margin-bottom: 13px;
+
+}
+
+.h2_alert {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #2e5f97;
+    font-family: Arial, Helvetica, sans serif;
+    font-size: 18px;
+    color: #000000;
+    border-left: 5px solid #2e5f97;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 36px;
+    margin-bottom: 13px;
+}

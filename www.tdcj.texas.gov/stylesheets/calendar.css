@@ -1,0 +1,56 @@
+/*
+FILE: Styles for all 'Calendar' applications, including:
+	1) CJAD Calendar ( /php/prod/cjad_calendar )
+	2) CO Screening  ( /php/prod/co_calendar )
+	3) OIG Training  ( /php/prod/oig_training )
+	4) TVAT Calendar ( /php/prod/vscalendar )
+NOTE: Calendar grid display switches to list-style display on screen resolutions below 1024px.
+BY: Frank Henderson, TDCJ Web Services
+DATE: 07/06/17
+MODIFIED: 
+*/
+
+/* calendar top date selector */
+#calnav{ margin-left:auto; margin-right:auto; width:100%; margin-bottom:15px; margin-top:25px; padding: 10px; border: 1px solid #777;}
+.calnav-form { text-align:right; padding-right:5px; }
+.calnav-form-go {border: 1px solid #000; color: #FFF; background-color: #2e5f97; padding-top: 1px; padding-right: 8px; padding-left: 8px; padding-bottom: 1px;}
+.calnav input, select {	border: 1px solid #777; }
+/* calendar nav ('previous/next') */
+#calhead { margin-left:auto; margin-right:auto; width:100%;  }
+#calhead td { padding:8px; }
+#calhead td.heading { width:59%; font-size:1.4em; font-weight:bold; }
+#calhead td.pn { width:20%; } 
+/* calendar */
+#cal 	 {display:none;}  /* appears at 1024px (see below) */
+/* calendar current day */
+.today { background-color:#FFF9A5; }
+/* calendar event URL */
+.eventul { margin: 4px;	padding: 2px; }
+
+/* calendar event description page */
+.desc-tbl {margin-top: 15px;}
+.desc-tbl th { padding:0 2em 1em 0; text-align:right; }
+.desc-tbl td { padding:0 0em 1em 0; text-align:left; }
+
+/*
+=====================================================
+PROGRESSIVELY ENHANCED STYLES
+=====================================================
+*/
+
+@media screen and (min-width: 1024px) {
+	/* calendar */
+	#cal { display: table; margin-left:auto; margin-right:auto; width:100%; border:1px solid #000;  }
+	#cal td { width:14%; height:100px; overflow:visible; padding:8px; border:1px solid #000;  }
+	#cal th { font-weight:bold; color:#FFF; background-color:#2e5f97; padding:8px; border:1px solid #000; }
+	/* calendar top nav buttons (used on TVAT Calendar) */
+	.calnav-button {  font-weight:normal; color:#FFF; background-color:#2e5f97; margin:0px 10px 0px 0px; padding:2px 8px; border:1px solid #000; width:110px; }
+	.calnav-button a { color:#FFF !important; text-decoration:none !important; }
+	.calnav-button-td { width:120px; text-align:center; }
+
+	/* calendar event URL */
+	.eventul { margin: 8px;	padding: 2px; background-color: #FFF9A5; }
+
+	/* calendar list */
+	#cal_list { display: none; }
+}

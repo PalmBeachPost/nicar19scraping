@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Death Row tables */
+.table_deathrow_bold_align_right {
+	font-weight: bold;
+	text-align: right;
+	padding-top: 9px;
+	padding-right: 11px;
+	width: 45%;
+	vertical-align: top;
+}
+.table_deathrow_align_left {
+	text-align: left;
+	padding-top: 9px;
+	width: 35%;
+	vertical-align: top;
+}
+.table_deathrow {
+	width: 100%;
+}

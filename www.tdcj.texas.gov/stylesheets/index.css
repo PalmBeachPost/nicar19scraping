@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*
+FILE: CSS with media queries for 'index.html' only. 
+BY: Frank Henderson, TDCJ Web Services
+DATE: 01/04/17
+UPDATED: 08/10/17
+*/
+
+/* hyperlinks for home content */
+#content a:link, #content a:visited, #content a:focus, #content a:active {
+	color: #333333;
+	text-decoration: none;
+}
+#content a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+/* bullet list titles */
+.home_titles {
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+
+/*
+=====================================================
+BODY & CONTENT
+=====================================================
+*/
+
+/* image slider *************************************/
+
+#image_slider {	
+	display: none;			/* appears at 1024px */
+}
+
+/* keystones ***************************************/
+
+#keystones_container	{
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+.keystone_panel	{
+	display: block;
+	width: 230px;
+	height: 50px;
+	text-indent: -99999px;
+	margin-top: 2px;
+}
+
+#keystone1	{
+	background-image: url(/images/keystone1.png);
+}
+#keystone1:hover{
+	background-position: 100% -50px;
+}
+
+#keystone2	{
+	background-image: url(/images/keystone2.png);
+}
+#keystone2:hover{
+	background-position: 100% -50px;
+}
+
+#keystone3	{
+	background-image: url(/images/keystone3.png);
+}
+#keystone3:hover{
+	background-position: 100% -50px;
+}
+
+#keystone4	{
+	background-image: url(/images/keystone4.png);
+}
+#keystone4:hover{
+	background-position: 100% -50px;
+}
+
+/* page content ***********************************/
+
+.home_container, .home_container_title	{
+	width: 312px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*
+=====================================================
+PROGRESSIVELY ENHANCED STYLES
+=====================================================
+*/
+
+@media screen and (min-width: 480px) {
+
+#keystones_container	{
+	width: 462px;	/* 2px extra due to margins  */
+	padding-bottom: 104px;
+}
+
+#keystone1, #keystone2, #keystone3, #keystone4	{
+	float: left;
+}
+
+#keystone1, #keystone3	{
+	margin-right:2px;
+}
+
+}
+
+@media screen and (min-width: 640px) {
+
+#content	{
+	width: 610px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home_outer_container	{
+	display: table-cell;
+}
+.home_container_title	{
+	display: table-column span-2;
+}
+.home_container {
+	display: table-row;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+#image_slider {
+	display: block;
+	margin-top:10px;
+}
+
+#keystones_container	{
+	width: 993px;
+	padding-bottom: 52px;
+}
+#keystone1, #keystone2, #keystone3	{
+	margin-right: 24px;
+}
+
+#content	{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home_outer_container	{
+	display: table-row;
+}
+.home_container_title {
+	width: 150px;
+	display: table-cell;
+}
+.home_container	{
+	width: 310px;
+	display: table-cell;
+}
+
+}

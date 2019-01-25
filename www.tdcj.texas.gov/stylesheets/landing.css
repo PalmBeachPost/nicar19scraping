@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+FILE: CSS with media queries specific to the four keystone landing pages. 
+BY: Frank Henderson, TDCJ Web Services
+DATE: February 01, 2017
+UPDATED: March 28, 2017
+*/
+
+/*
+=====================================================
+BODY & CONTENT
+=====================================================
+*/
+
+#landing_page_image {	
+	display: none;			/* appears at 1024px */
+}
+
+/*
+=====================================================
+PROGRESSIVELY ENHANCED STYLES
+=====================================================
+*/
+
+@media screen and (min-width: 1024px) {
+
+#landing_page_image {
+	display: block;
+}
+
+#content_right {	/* aligns image with menu  */
+	padding-top: 0px;
+}
+
+h1 {	
+	display: none;	/* title in image */
+}
+
+}

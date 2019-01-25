@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*
+FILE: CSS exclusively for ACE and ACE Training.
+BY: Wendy Skains-McLeod, TDCJ Web Services
+DATE: June 15, 2017
+UPDATED: July 6, 2017
+*/
+
+li {margin-right: 10px;}
+
+@media screen and (min-width: 968px)  {
+
+/* left & right partitions  */
+
+.div_80_left_ace {  /* used exclusively for ACE Training */
+    height: inherit;
+    width: 79%;
+    float: left;
+}
+
+.div_container_20 {  /* used exclusively for ACE Training */
+    height: auto;
+    width: 19%;
+    float: right;
+    overflow: auto;
+}
+
+.div_20_right_border {  /* used exclusively for ACE Training */
+    height: inherit;
+    width: 99%;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top: 2px;
+}
+
+}
