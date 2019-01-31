@@ -12,7 +12,7 @@
 .menu div a{ 	/* header bar links */
 	font: bold 12px Arial, Helvetica, sans-serif;
 	display: block;
-	background: url(/images/menu_bkgrnd.png);
+	background: url(/files/www.tdcj.texas.gov/images/menu_bkgrnd.png);
 	height: 24px; /* subtract padding from img height (ie: 32px - 4px - 4px)*/
 	padding: 4px 0px 4px 10px;
 	line-height: 24px;
