@@ -96,12 +96,12 @@ hr  {
 }
 
 ul.star  {
-	list-style-image: url(/files/www.tdcj.texas.gov/images/star_bullet.gif);	
+	list-style-image: url(/www.tdcj.texas.gov/images/star_bullet.gif);	
 	font-size: 14px;
 }
 
 li.star  {
-	list-style-image: url(/files/www.tdcj.texas.gov/images/star_bullet.gif);	
+	list-style-image: url(/www.tdcj.texas.gov/images/star_bullet.gif);	
 	font-size: 14px;
 }
 
@@ -158,7 +158,7 @@ TOP HEADER BANNERS
 #top_banner  {
 	width: 100%;
 	height: 41px;
-	background-image: url(/files/www.tdcj.texas.gov/images/top_banner_bkgrnd.jpg);
+	background-image: url(/www.tdcj.texas.gov/images/top_banner_bkgrnd.jpg);
 	background-repeat: repeat;
 	color: #FFFFFF;
 }
@@ -205,7 +205,7 @@ TOP HEADER BANNERS
 	float: left;
 	width: 320px;
 	height: 96px;
-	background-image: url(/files/www.tdcj.texas.gov/images/title_small.png);
+	background-image: url(/www.tdcj.texas.gov/images/title_small.png);
 }
 
 #mission  {
@@ -281,7 +281,7 @@ BODY & CONTENT
 	border:0;
 	margin:0;
 	padding:0;
-	background-image:url(/files/www.tdcj.texas.gov/images/search_button.png);
+	background-image:url(/www.tdcj.texas.gov/images/search_button.png);
 	text-indent:-1000px;
 	line-height:20px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -331,7 +331,7 @@ PROGRESSIVELY ENHANCED STYLES
 @media screen and (min-width: 480px) {
 
 #title_main  {
-	background-image: url(/files/www.tdcj.texas.gov/images/title_medium.png);
+	background-image: url(/www.tdcj.texas.gov/images/title_medium.png);
 	width: 389px;
 	margin-left: 10px;
 }
@@ -366,7 +366,7 @@ PROGRESSIVELY ENHANCED STYLES
 	width: 213px;
 	height: 96px;
 	margin-right: 10px;
-	background-image: url(/files/www.tdcj.texas.gov/images/mission.png);
+	background-image: url(/www.tdcj.texas.gov/images/mission.png);
 }
 
 }
@@ -407,7 +407,7 @@ PROGRESSIVELY ENHANCED STYLES
 }
 
 #title_main  {
-	background-image: url(/files/www.tdcj.texas.gov/images/title_large.png);
+	background-image: url(/www.tdcj.texas.gov/images/title_large.png);
 	width: 738px;
 }
 
